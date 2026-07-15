@@ -1,0 +1,20 @@
+{
+  "day": 3,
+  "student_name": "Rithika.R",
+  "github": "Rithika-8041",
+  "ir_hallucination_done": true,
+  "ir_bias_done": true,
+  "ir_guardrail_builder_done": true,
+  "ir_battle_complete": true,
+  "ir_battle_blocked": 8,
+  "ir_battle_total": 8,
+  "rag_scenario": "A",
+  "rag_no_rag_summary": "Gemini explicitly said that the customer is not covered because the 12-month standard warranty has expired and it doesn't cover physical damage anyway and that our support reply should politely decline coverage, check if they have Samsung Care+, and guide them to paid repair options.",
+  "rag_grounded_summary": "Gemini said that the customer is not covered because their watch is past the 12-month standard warranty and lacks an active Care+ plan to cover accidental damage. Support should inform them of the exclusion and offer an out-of-pocket repair through a Samsung authorized service.",
+  "rag_judgement": "confirmed_right",
+  "stretch_done": true,
+  "stretch_notes": "At first,I asked it a direct question about Samsung India's parental leave policy without providing any reference text.And because it didn't have access to Samsung India's internal HR database and couldn't find the exact, verified numbers in its training data, it had to refuse to answer so that it wouldn't hallucinate or give me the wrong information.And by forcing the context and adding stricter instructions, the non-parametric context successfully overrode the model's parametric memory.",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-15T06:33:51.691Z"
+}
