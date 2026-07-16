@@ -1,0 +1,52 @@
+{
+  "day": 4,
+  "student_name": "Rithika.R",
+  "github": "Rithika-8041",
+  "incidents": [
+    {
+      "id": "A",
+      "failure_type": "Hallucination",
+      "principle": "Reliability",
+      "justification": "The failure type here is hallucination because the chatbot made up something completely new which never existed in the first place. It violated the reliability principle as it proved to be unreliable by giving customers fake information and incorrect facts and policies."
+    },
+    {
+      "id": "B",
+      "failure_type": "Privacy Violation",
+      "principle": "Privacy",
+      "justification": "The failure type here is privacy violation because the system collected and stored personal and confidential information without proper notice or consent. It violated the privacy principle because AI systems must protect user data, explain what data is collected, and use it responsibly which was not found here."
+    },
+    {
+      "id": "C",
+      "failure_type": "Deepfake/Misinformation",
+      "principle": "Transparency",
+      "justification": "The AI-generated video falsely represented a real person, misleading the public because people were not informed that the content was fake."
+    },
+    {
+      "id": "D",
+      "failure_type": "Bias/Discrimination",
+      "principle": "Fairness",
+      "justification": "The AI learned hidden gender bias from historical data and unfairly disadvantaged candidates from certain women's colleges."
+    },
+    {
+      "id": "E",
+      "failure_type": "Bias/Discrimination",
+      "principle": "Human Oversight",
+      "justification": "The system showed unfair treatment, and the lack of human review allowed the biased pattern to continue for weeks."
+    },
+    {
+      "id": "F",
+      "failure_type": "",
+      "principle": "",
+      "justification": ""
+    }
+  ],
+  "justifications_written": 5,
+  "stretch_done": true,
+  "stretch_company": "Clearview",
+  "stretch_failure_type": "Privacy Violation",
+  "stretch_principle": "Privacy",
+  "stretch_notes": "Clearview AI collected billions of publicly available images from the internet and used them to build a facial recognition database without the knowledge or consent of many people whose images were included. The technology was used by law enforcement and raised concerns about surveillance, consent, and misuse of personal data.The AI system violated privacy by collecting and processing people's biometric information without proper consent or transparency",
+  "tasks_completed": 5,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-16T05:54:45.671Z"
+}
